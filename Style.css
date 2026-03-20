@@ -20,7 +20,21 @@ header {
     padding-bottom: 10px;
 }
 
-header h1 { margin: 0; color: #2c3e50; }
+/* Định dạng cho ảnh đại diện */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #2c3e50;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 { 
+    margin: 0; 
+    color: #2c3e50; 
+}
 
 .main-content {
     display: flex;
@@ -43,5 +57,10 @@ h3 {
     padding-bottom: 5px;
 }
 
-ul { padding-left: 20px; }
-.job { margin-bottom: 15px; }
+ul { 
+    padding-left: 20px; 
+}
+
+.job { 
+    margin-bottom: 15px; 
+}
